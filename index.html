@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+    <title>Denys Dev</title>
+</head>
+<body>
+    <header>
+        <section class="box cabecalho">
+            <div class="logo">
+            <h2><a href="">Deny$(Dev)</a></h2>
+            </div>
+            <nav>    
+                <ul class="menu">
+                    <li><a href="#apresentacao">Início</a></li>
+                    <li><a href="#portifolio">Portifólio</a></li>
+                    <li><a href="#form">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>   
+
+    <input type="checkbox" id="dark-mode" checked>
+    
+    <main>
+        <section class="box perfil">
+            <div class="card-perfil">
+                <label for="dark-mode" class="dark-mode-label"></label>
+                <img src="/img/denys.jpg" alt="imagem-perfil">
+                <h2 class="animate__animated animate__fadeInLeftBig">Denys Aquino</h2>
+                <p class="animate__animated animate__fadeInRightBig">Desenvolvedor Front-End</p>
+            </div>
+            <div class="card-apresentacao" id="apresentacao">
+                    <h2>Olá, Seja muito bem vindo(a).</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur similique sit quae vitae? Voluptates dolorem nam ratione modi reprehenderit expedita exercitationem temporibus autem obcaecati alias distinctio deleniti nulla labore, possimus facilis ea qui ut, aliquam tempora quidem inventore! Quaerat corporis, odio tempore ex inventore sit neque ratione? Dolor id impedit adipisci nesciunt! Ab illum repudiandae soluta accusantium natus quae eius molestias in nemo iure amet dolorum totam qui, a recusandae nisi. Quisquam culpa est hic, explicabo quo architecto corrupti sequi sint, eius reiciendis debitis laudantium quae ex molestias. Inventore quaerat nisi culpa nobis optio nihil repellat fuga, minima ullam!</p>
+            </div>
+        </section>
+        <section class="box portifolio" id="portifolio">
+                <h2>Portifólio</h2>
+                <p>Aqui estão meus projetos no Github, basta clicar na imagem abaixo. Desde pequenas funções aprendidas em cursos até projetos mais complexos que irei construir com o tempo; como um aplicativo de listas em geral que já tenho o escopo em mente e ando me apronfundando para colocar o quanto antes a mão na massa. Inlclusive este meu blog/portifólio estará lá disponivel, sinta-se em casa  : ) .</p> 
+            <div class="imagens">
+                <div>
+                    <img src="img/barbeariaAlura.jpg" alt="" class="imagens2" title="Projeto barbearia. Desenvolvido durante o curso HTML5/CSS3 da Alura.  Com alterações pessoais para atender qualquer dispositivo com 100% de responsividade.">
+                </div>
+                <div>
+                    <img src="img/blog.jpg" alt="Blog Github" class="imagens2" title="Repositorio dessa própria pagina, com todos os códigos.">
+                </div>
+                <div>
+                    <img src="img/horaAtual.jpg" alt="" class="imagens2" title="Uma função básica aprendida durante o curso de JavaScript do curso em vídeo, onde pegamos a hora atual do cliente e exibimos na tela."> 
+                </div>
+                <div>
+                    <img src="img/verIdade.jpg" alt="" class="imagens2" title="Função simple que demonstrar quantos anos a pessoa tem com base no ano de nascimento e exibe uma foto conforme a idade.">
+                </div>
+                <div>
+                    <img src="img/testes.jpg" alt="" class="imagens2" title="Apenas uma pagína para testes. Onde testo tudo que vejo de legal na web"> 
+                </div>
+                <div>
+                    <img src="img/calculador.jpg" alt="" class="imagens2" title="Projeto desenvolvido com lógica em JavaScript e estilizado para 100% de responsividade com Css3.">
+                </div>
+            </div>
+        
+        </section>
+
+        <section class=" box formulario" id="form">
+            <h3>Gostou do que viu?Entre em contato &#128521;</h3>
+            <form action="https://formspree.io/mgenjqnb" method="POST">
+                <label for="nome">Nome: <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></label>
+    
+                <label for="tel">Telefone: <input type="tel" id="tel" name="tel" placeholder="(XX) XXXXX-XXXX" required></label>
+    
+                <label for="email">E-Mail: <input type="email" name="email" id="email" placeholder="Exemplo: seunome@empresa.com" required></label>
+    
+                <label for="mensagem">Mensagem:<textarea cols="48" rows="5" placeholder="Deixe sua mensagem..." id="mensagem" name="mensagem" required></textarea></label>
+    
+                <input class="botaoenviar" type="submit" value="Enviar mensagem" id="button" name="button" mouseenter="passMouse" mouseout="outMouse" required>
+    
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div class="fot">
+            <p>© Desenvolvido por Denys Dev</p>
+            <div class="redes">
+                <p><a href="https://github.com/DenysAquino" target="_blank"><img src="img/github.png" alt="Logo Github"></a></p>
+                <p><a href="https://www.linkedin.com/in/denys-aquino/" target="_blank"><img src="img/linkedin.png" alt="Logo Linkedin"></a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/meuSlick.js"></script>
+    <!-- <script type="text/javascript" src="js/darkMode.js"></script> -->
+</body>
+</html>
