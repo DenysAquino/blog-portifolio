@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
-:root {
-    --bgcolor: #fff;
-    --fontcolor: #555;
+hmlt {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 body {
     font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --bgcolor: #fff;
+    --fontcolor: #555;
 }
 
 header{
@@ -298,7 +304,7 @@ footer {
     }
     .imagens2 {
         width: 98%;
-        height: 100px;
+        height: auto;
     }
 
     
