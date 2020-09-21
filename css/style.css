@@ -4,6 +4,10 @@ body {
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
+span {
+    font-weight: bold;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -26,6 +30,10 @@ main {
     background: var(--bgcolor);
     color: var(--fontcolor);
     transition: .5s ease-in-out background-color, .5s ease-in-out color;
+}
+
+main  a {
+    color: #104b6d
 }
 
 form {
@@ -175,13 +183,15 @@ footer {
 .card-apresentacao h2 {
     font-size: 2em;
     text-align: center;
-    padding: 1.5em 0;
+    padding: 1.5em 0 .5em 0;
+
 }
 
 .card-apresentacao p {
     font-size: 1.2em;
     text-align: justify;
     line-height: 1.2em;
+    padding-top: 1em;
 }
 
 .portifolio {
