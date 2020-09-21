@@ -3,23 +3,24 @@
 hmlt {
     margin: 0;
     padding: 0;
-    width: 100%;
+
 }
 
 body {
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
-:root {
-    --bgcolor: #fff;
-    --fontcolor: #555;
-}
 
 header{
     display: flex;
     justify-content: center;
     background: #191919;
     color: white;
+}
+
+:root {
+    --bgcolor: #fff;
+    --fontcolor: #555;
 }
 
 main {
@@ -191,7 +192,10 @@ footer {
 }
 
 .portifolio {
+    display: flex;
+    flex-direction: column;
     width: 90%;
+    margin: 0;
 }
 
 .portifolio  h2 {
@@ -260,7 +264,7 @@ footer {
 }
 
 .redes p {
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
 
 /*Media Query */
@@ -271,7 +275,8 @@ footer {
         width: 90%;
     }
     .card-apresentacao {
-        margin: 0 20px;
+        margin: 0 auto;
+        width: 90%;
     }
     .imagens {
         margin: 0 auto;
@@ -279,7 +284,7 @@ footer {
     }
     .imagens2 {
         width: 98%;
-        height: 200px;
+        height: auto;
     }
     
 }
@@ -287,6 +292,7 @@ footer {
 @media screen and (max-width: 480px) {
 
     .cabecalho {
+        width: 100%;
         justify-content: center;
         flex-direction: column;
     }
@@ -295,16 +301,13 @@ footer {
     }
     .portifolio {
         width: 90%;
+        height: auto;
     }
     .imagens {
-        margin: 0 auto;
-        width: 100%;
-    
-
+        width: 90%;  
     }
     .imagens2 {
-        width: 98%;
-        height: auto;
+        height: 100px;
     }
 
     

@@ -1,7 +1,7 @@
 
             $('.imagens').slick({
             centerMode: true,
-            centerPadding: '',
+            centerPadding: '60px',
             slidesToShow: 3,
             dots: true,
             arrows: true,

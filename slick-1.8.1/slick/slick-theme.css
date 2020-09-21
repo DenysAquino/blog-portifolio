@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 /* Slider */
 .slick-loading .slick-list
 {
@@ -70,8 +70,8 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: 1;
-    color: #191919;
+    opacity: .75;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
