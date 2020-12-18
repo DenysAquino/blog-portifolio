@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/medias.css">
+    <link rel="stylesheet" href="css/formularios.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Blog do Denys</title>
 </head>
+
 <body>
     <header>
         <section class="box cabecalho">
             <div class="logo">
-            <h2><a href="">Deny$(Dev)</a></h2>
+                <h2><a href="">Deny$(Dev)</a></h2>
             </div>
-            <nav>    
+            <input type="checkbox" id="nav-bar">
+            <nav class="navbarx">
                 <ul class="menu">
-                    <li><a href="#apresentacao">Início</a></li>
-                    <li><a href="#portifolio">Portifólio</a></li>
-                    <li><a href="#form">Contato</a></li>
+                    <li class="menu-item first"><a href="#apresentacao">Início</a></li>
+                    <li class="menu-item"><a href="#portifolio">Portifólio</a></li>
+                    <li class="menu-item"><a href="#form">Contato</a></li>
                 </ul>
             </nav>
         </section>
 
-    </header>   
+    </header>
 
     <input type="checkbox" id="dark-mode" checked>
-    
+
     <main>
         <section class="box perfil">
             <div class="card-perfil">
@@ -37,56 +45,89 @@
                 <p>Desenvolvedor Front-End</p>
             </div>
             <div class="card-apresentacao" id="apresentacao">
-                    <h2>Olá, Seja muito bem vindo(a).</h2>
-                    <p>Sou iniciante em Programação e este será o espaço onde pretendo compartilhar conhecimentos e colocá-los em prática.</p>
-                    <p>Atualmente a minha grade de estudos está 100% focada no <span> Front-end</span>, porém como fui atraído de forma única para esse vasto e apaixonante mundo do desenvolvimento o amanhã pode mudar, mas na mesma área pois não vou mais me afastar. Inclusive já ando bem curioso em relação ao<span> Node.js</span> para construção de um <span>Back-end</span> para esse mesmo blog, mas por enquanto não passa de curiosidade pois estou 100% focado na base Front-end.</p>
-                    <p>Com a queda abrupta de movimento durante a pandemia acabei abandonando o meu trabalho de motorista de aplicativos e focando totalmente nos estudos daquilo que me atrai. Consumindo todos os materiais open source disponíveis e recentemente investi na ótima plataforma Alura, onde conto com um ano de acesso para assistir mais de 1000 cursos. Demais, né?! 😊</p>
-                    <p>Minha grade de estudos inclui principalmente a base sólida do <span>Front</span>, expandindo meus conhecimentos em <span>HTML, Css, JavaScript</span>. Já fiz o consumo de algumas bibliotecas em pequenos projetos, como:<span>Jquery, Slick, Animate</span> e também fiz uso do <span>Git</span> para colocar todas as minhas Single-pages no <span>Github</span> Pages. Já está nos meus planos iniciar com os Frameworks <span>react.js</span> ou <span>vue.js</span>(para este, tenho um curso da Cod3r já pago me aguardando) e <span>react native</span> assim que me sentir 100% confortável no JavaScript. Acredito que até o fim do ano com meu foco e determinação já seja possível.
-                    </p>
-                    <p>Possuo algumas certificações que sempre deixo atualizadas no <a href="https://www.linkedin.com/in/denys-aquino/" target="_blank"><span>Linkedin.</span></a> Me acompanha lá.</p>               
-                    <p>Abraços!</p>
+                <h2>Olá, Seja muito bem vindo(a).</h2>
+                <p>Sou iniciante em Programação e este será o espaço onde pretendo compartilhar conhecimentos e
+                    colocá-los em prática.</p>
+                <p>Atualmente a minha grade de estudos está 100% focada no <span> Front-end</span>, porém como fui
+                    atraído de forma única para esse vasto e apaixonante mundo do desenvolvimento o amanhã pode mudar,
+                    mas na mesma área pois não vou mais me afastar. Inclusive já ando bem curioso em relação ao<span>
+                        Node.js</span> para construção de um <span>Back-end</span> para esse mesmo blog, mas por
+                    enquanto não passa de curiosidade pois estou 100% focado na base Front-end.</p>
+                <p>Com a queda abrupta de movimento durante a pandemia acabei abandonando o meu trabalho de motorista de
+                    aplicativos e focando totalmente nos estudos daquilo que me atrai. Consumindo todos os materiais
+                    open source disponíveis e recentemente investi na ótima plataforma Alura, onde conto com um ano de
+                    acesso para assistir mais de 1000 cursos. Demais, né?! 😊</p>
+                <p>Minha grade de estudos inclui principalmente a base sólida do <span>Front</span>, expandindo meus
+                    conhecimentos em <span>HTML, Css, JavaScript</span>. Já fiz o consumo de algumas bibliotecas em
+                    pequenos projetos, como:<span>Jquery, Slick, Animate</span> e também fiz uso do <span>Git</span>
+                    para colocar todas as minhas Single-pages no <span>Github</span> Pages. Já está nos meus planos
+                    iniciar com os Frameworks <span>react.js</span> ou <span>vue.js</span>(para este, tenho um curso da
+                    Cod3r já pago me aguardando) e <span>react native</span> assim que me sentir 100% confortável no
+                    JavaScript. Acredito que até o fim do ano com meu foco e determinação já seja possível.
+                </p>
+                <p>Possuo algumas certificações que sempre deixo atualizadas no <a
+                        href="https://www.linkedin.com/in/denys-aquino/" target="_blank"><span>Linkedin.</span></a> Me
+                    acompanha lá.</p>
+                <p>Abraços!</p>
             </div>
         </section>
         <section class="box portifolio" id="portifolio">
-                <h2>Portifólio</h2>
-                <p>Aqui estão meus projetos no <a href="https://github.com/DenysAquino" target="_blank"><span>Github</span></a>, basta clicar na imagem desejada abaixo e será redirecionado.</p>
-                <p>A ideia é compartilhar tudo, desde pequenas funções aprendidas em cursos até projetos mais complexos que irei construir com o tempo; como um aplicativo de listas em geral que já tenho o escopo em mente e ando me apronfundando para colocar o quanto antes a mão na massa. Inclusive este meu blog/portifólio estará lá disponivel, sinta-se em casa  : ) .</p> 
+            <h2>Portifólio</h2>
+            <p>Aqui estão meus projetos no <a href="https://github.com/DenysAquino"
+                    target="_blank"><span>Github</span></a>, basta clicar na imagem desejada abaixo e será
+                redirecionado.</p>
+            <p>A ideia é compartilhar tudo, desde pequenas funções aprendidas em cursos até projetos mais complexos que
+                irei construir com o tempo; como um aplicativo de listas em geral que já tenho o escopo em mente e ando
+                me apronfundando para colocar o quanto antes a mão na massa. Inclusive este meu blog/portifólio estará
+                lá disponivel, sinta-se em casa : ) .</p>
+
             <div class="imagens">
                 <div>
-                    <a href="https://denysaquino.github.io/barbearia-alura/" target="_blank"><img src="img/barbeariaAlura.jpg" alt="" class="imagens2" title="Projeto barbearia. Desenvolvido durante o curso HTML5/CSS3 da Alura.  Com alterações pessoais para atender qualquer dispositivo com 100% de responsividade."></a>
+                    <a href="https://denysaquino.github.io/barbearia-alura/" target="_blank"><img src="img/barbeariaAlura.jpg" alt=""
+                            class="imagens2"
+                            title="Projeto barbearia. Desenvolvido durante o curso HTML5/CSS3 da Alura.  Com alterações pessoais para atender qualquer dispositivo com 100% de responsividade."></a>
                 </div>
                 <div>
-                   <a href="https://github.com/DenysAquino/barbearia-alura" target="_blank"><img src="img/blog.jpg" alt="Blog Github" class="imagens2" title="Repositorio dessa própria pagina, com todos os códigos."></a> 
+                    <a href="https://github.com/DenysAquino/barbearia-alura" target="_blank"><img src="img/blog.jpg"
+                            alt="Blog Github" class="imagens2"
+                            title="Repositorio dessa própria pagina, com todos os códigos."></a>
                 </div>
                 <div>
-                    <a href="https://denysaquino.github.io/hora-do-dia/" target="_blank"><img src="img/horaAtual.jpg" alt="" class="imagens2" title="Uma função básica aprendida durante o curso de JavaScript do curso em vídeo, onde pegamos a hora atual do cliente e exibimos na tela."></a> 
+                    <a href="https://denysaquino.github.io/hora-do-dia/" target="_blank"><img src="img/horaAtual.jpg"
+                            alt="" class="imagens2"
+                            title="Uma função básica aprendida durante o curso de JavaScript do curso em vídeo, onde pegamos a hora atual do cliente e exibimos na tela."></a>
                 </div>
                 <div>
-                    <a href="https://denysaquino.github.io/ver-idade/" target="_blank"><img src="img/verIdade.jpg" alt="" class="imagens2" title="Função simple que demonstrar quantos anos a pessoa tem com base no ano de nascimento e exibe uma foto conforme a idade."></a>
+                    <a href="https://denysaquino.github.io/ver-idade/" target="_blank"><img src="img/verIdade.jpg"
+                            alt="" class="imagens2"
+                            title="Função simple que demonstrar quantos anos a pessoa tem com base no ano de nascimento e exibe uma foto conforme a idade."></a>
                 </div>
                 <div>
-                    <a href="https://denysaquino.github.io/pagina-de-testes/" target="_blank"><img src="img/testes.jpg" alt="" class="imagens2" title="Apenas uma pagína para testes. Onde testo tudo que vejo de legal na web"></a> 
+                    <a href="https://denysaquino.github.io/pagina-de-testes/" target="_blank"><img src="img/testes.jpg"
+                            alt="" class="imagens2"
+                            title="Apenas uma pagína para testes. Onde testo tudo que vejo de legal na web"></a>
                 </div>
                 <div>
-                   <a href="https://denysaquino.github.io/calculador-de-massa/" target="_blank"><img src="img/calculador.jpg" alt="" class="imagens2" title="Projeto desenvolvido com lógica em JavaScript e estilizado para 100% de responsividade com Css3."></a> 
+                    <a href="https://denysaquino.github.io/calculador-de-massa/" target="_blank"><img src="img/calculador.jpg" alt=""
+                            class="imagens2"
+                            title="Projeto desenvolvido com lógica em JavaScript e estilizado para 100% de responsividade com Css3."></a>
                 </div>
             </div>
-        
         </section>
 
         <section class=" box formulario" id="form">
             <h3>Gostou do que viu? Entre em contato &#128521;</h3>
             <form action="https://formspree.io/mgenjqnb" method="POST">
-                <label for="nome">Nome: <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required></label>
-    
-                <label for="tel">Telefone: <input type="tel" id="tel" name="tel" placeholder="(XX) XXXXX-XXXX" required></label>
-    
-                <label for="email">E-Mail: <input type="email" name="email" id="email" placeholder="Exemplo: seunome@empresa.com" required></label>
-    
-                <label for="mensagem">Mensagem:<textarea cols="48" rows="5" placeholder="Deixe sua mensagem..." id="mensagem" name="mensagem" required></textarea></label>
-    
-                <input class="botaoenviar" type="submit" value="Enviar mensagem" id="button" name="button" mouseenter="passMouse" mouseout="outMouse" required>
-    
+                <label for="nome">Nome: <input type="text" id="nome" name="nome" placeholder="Digite seu nome"
+                        required></label>
+                <label for="tel">Telefone: <input type="tel" id="tel" name="tel" placeholder="(XX) XXXXX-XXXX"
+                        required></label>
+                <label for="email">E-Mail: <input type="email" name="email" id="email"
+                        placeholder="Exemplo: seunome@empresa.com" required></label>
+                <label for="mensagem">Mensagem:<textarea cols="48" rows="5" placeholder="Deixe sua mensagem..."
+                        id="mensagem" name="mensagem" required></textarea></label>
+                <input class="botaoenviar" type="submit" value="Enviar mensagem" id="button" name="button"
+                    mouseenter="passMouse" mouseout="outMouse" required>
             </form>
         </section>
 
@@ -95,18 +136,19 @@
         <div class="fot">
             <p>© Desenvolvido por Denys Dev</p>
             <div class="redes">
-                <p><a href="https://github.com/DenysAquino" target="_blank"><img src="img/github.png" alt="Logo Github"></a></p>
-                <p><a href="https://www.linkedin.com/in/denys-aquino/" target="_blank"><img src="img/linkedin.png" alt="Logo Linkedin"></a></p>
+                <p><a href="https://github.com/DenysAquino" target="_blank"><img src="img/github.png"
+                            alt="Logo Github"></a></p>
+                <p><a href="https://www.linkedin.com/in/denys-aquino/" target="_blank"><img src="img/linkedin.png"
+                            alt="Logo Linkedin"></a></p>
             </div>
         </div>
     </footer>
 
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/meuSlick.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

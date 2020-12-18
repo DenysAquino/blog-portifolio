@@ -1,0 +1,103 @@
+#dark-mode {
+    display: none;
+}
+
+.dark-mode-label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.8em;
+    margin: 0 auto;
+}
+
+.dark-mode-label::after {
+    content: "\1F31A";
+}
+
+#dark-mode:checked + main {
+    --bgcolor:linear-gradient(#0c3c58,#212121,#242525);
+    --fontcolor: #fff;
+    background: var(--bgcolor);
+    color: var(--fontcolor);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
+}
+
+#dark-mode:checked + main .dark-mode-label::after {
+    content: '\1F31E';
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;    
+}
+
+.card-perfil{
+    align-items: center;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    
+}
+
+.card-perfil img{
+    border: 0.2em solid #191919;
+    border-radius: 50%;
+}
+
+.card-perfil > h2 {
+    font-size: 2em;
+    margin: 0.3em 0;
+}
+
+.card-perfil > p {
+    font-style: italic;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.card-apresentacao h2 {
+    font-size: 2em;
+    padding: 1.5em 0 .5em 0;
+    text-align: center;
+
+}
+
+.card-apresentacao p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding-top: 1em;
+    text-align: justify;
+}
+
+.portifolio {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+
+.portifolio  h2 {
+    font-size: 2em;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.portifolio p {
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.2em;
+    padding: 0 0 1.5em 0;
+    
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagens2 {
+    padding-top: 1rem;
+    width: 300px;
+}

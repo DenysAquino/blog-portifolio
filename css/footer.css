@@ -1,0 +1,7 @@
+.redes {
+    display: flex;
+}
+
+.redes p {
+    padding-left: 0.5em;
+}

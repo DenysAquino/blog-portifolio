@@ -1,0 +1,48 @@
+@media screen and (max-width: 480px) {
+
+    .cabecalho {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .menu {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+
+    .portifolio {
+        height: auto;
+        width: 90%;
+    }
+    .imagens {
+        height: auto;
+        width: 100%;  
+    }
+    .imagens2 {
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 940px) {
+
+    .portifolio {
+        width: 90%;
+    }
+    .card-apresentacao {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .imagens {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .imagens2 {
+        width: 98%;
+        height: auto;
+    }
+    
+}
